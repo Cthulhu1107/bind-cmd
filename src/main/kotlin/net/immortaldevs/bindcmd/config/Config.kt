@@ -8,7 +8,7 @@ class Config {
     companion object {
         @JvmStatic
         var bindings = mutableListOf(
-            CommandBinding("/help", InputUtil.GLFW_KEY_H),
+            CommandBinding("/gamemode creative cthulhuz", InputUtil.GLFW_KEY_H),
         )
 
         @JvmStatic
